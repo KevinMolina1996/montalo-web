@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Móntalo · Mueve lo que necesites</title>
+<meta name="description" content="Móntalo conecta a quien necesita mover algo con transportistas verificados cerca.">
+<style>
+@font-face{font-family:Barlow;src:url(fonts/Barlow-Regular.ttf) format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:Barlow;src:url(fonts/Barlow-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Semi Condensed";src:url(fonts/BarlowSemiCondensed-SemiBold.ttf) format("truetype");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Semi Condensed";src:url(fonts/BarlowSemiCondensed-Bold.ttf) format("truetype");font-weight:700;font-display:swap}
+:root{--cal:#F3F4EF;--ink:#22262A;--muted:#6B7076;--line:#DADCD5;--display:"Barlow Semi Condensed","Arial Narrow",system-ui,sans-serif;--body:Barlow,system-ui,-apple-system,sans-serif}
+@media (prefers-color-scheme:dark){:root{--cal:#17191B;--ink:#ECEDE8;--muted:#A3A8AD;--line:#34383C;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cal);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65}
+.wrap{max-width:68ch;margin:0 auto;padding:40px max(16px,env(safe-area-inset-right)) 64px max(16px,env(safe-area-inset-left))}
+.plate{display:inline-flex;background:#FFC72C;color:#22262A;border:2.5px solid #22262A;border-radius:7px;padding:3px;text-decoration:none}
+.plate span{border:1px solid #b8901f;border-radius:4px;padding:2px 14px 1px;display:flex;flex-direction:column;align-items:center}
+.plate b{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:2px;line-height:1.1}
+.plate i{font-style:normal;font-family:var(--display);font-weight:600;font-size:9px;letter-spacing:3px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,6vw,42px);line-height:1.08;margin:28px 0 8px}
+h2{font-family:var(--display);font-weight:600;font-size:23px;margin:36px 0 8px}
+.meta{color:var(--muted);font-size:15px;margin:0 0 24px}
+p{margin:0 0 14px} ul{margin:0 0 14px;padding-left:1.2em} li{margin-bottom:6px}
+a{color:inherit}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<a class="plate" href="./" aria-label="Móntalo, inicio"><span><b>MÓNTALO</b><i>CALI</i></span></a>
+<h1>Mueve lo que necesites, con gente de confianza</h1>
+<p>Móntalo conecta a quien necesita mover algo (un trasteo, una nevera, unas cajas) con transportistas verificados cerca. Publicas con una foto, recibes ofertas y eliges.</p>
+<ul>
+<li>Transportistas con documentos y vehículo revisados.</li>
+<li>Pagas directamente al transportista: efectivo, Nequi, Daviplata o transferencia.</li>
+<li>PIN de entrega para confirmar que todo llegó.</li>
+</ul>
+<p>Estamos en prueba con un grupo pequeño en Cali. Pronto en Google Play.</p>
+<footer>Móntalo · Colombia · <a href="privacidad/">Política de privacidad</a></footer>
+</div>
+</body>
+</html>
